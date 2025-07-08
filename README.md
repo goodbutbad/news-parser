@@ -29,14 +29,14 @@ php artisan serve
 http://127.0.0.1:8000/
 ```
 
-⸻
+---
 
 Функциональность
  • Парсинг новостей с главной страницы Kaktus.media
  • Фильтрация новостей по дате
  • Поиск по заголовкам новостей
 
-⸻
+---
 
 Стек технологий
  • Laravel 10
@@ -44,12 +44,12 @@ http://127.0.0.1:8000/
  • GuzzleHTTP
  • Symfony DomCrawler
 
-⸻
+---
 
 Структура проекта
  • App\Services\NewsParserService — логика парсинга
  • App\Http\Controllers\NewsController — обработка запросов
  • resources/views/news/index.blade.php — отображение новостей
 
-⸻
+---
 
